@@ -54,7 +54,7 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       }
       .header {
-        background-color: #007bff;
+        background-color: black;
         color: white;
         padding: 20px;
         text-align: center;
@@ -85,7 +85,7 @@
         color: white;
       }
       .footer {
-        background-color: #007bff;
+        background-color: black;
         color: #fff;
         text-align: center;
         padding: 20px;
@@ -118,1010 +118,2034 @@
   <body>
     <section class="bg-white px-4 my-5">
       <div class="container">
-        <!-- Nav Buttons -->
-        <ul
-          class="nav nav-tabs justify-content-center flex-wrap gap-2 mb-4"
-          id="searchTab"
-          role="tablist"
+        <!-- Reset Password Table -->
+        <h1
+          class="text-4xl md:text-5xl lg:text-6xl text-[#111827] text-center mb-8 leading-tight"
+          style="font-weight: 900"
         >
-          <li class="nav-item" role="presentation">
-            <button
-              class="nav-link active"
-              id="popular-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#popular"
-              type="button"
-              role="tab"
-              aria-controls="popular"
-              aria-selected="true"
+          Reset Password
+        </h1>
+        <table
+          class="email-container"
+          align="center"
+          cellpadding="0"
+          cellspacing="0"
+          width="100%"
+        >
+          <tr>
+            <td class="header">
+              <img src="./assets/images/logo_sm.png" alt="" />
+            </td>
+          </tr>
+          <tr>
+            <td class="content">
+              <p>Hi [User's Name],</p>
+              <p>
+                We received a request to reset your password. Click the button
+                below to reset it:
+              </p>
+              <a href="[Reset Link]" class="button">Reset Your Password</a>
+              <p style="margin-top: 20px">
+                If you didn't request this, you can safely ignore this email.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="content"
+              align="start"
+              valign="start"
+              style="padding: 0px 20px 50px 20px; text-align: start !important"
+              data-mce-style="padding-bottom: 10px; "
             >
-              Reset Password
-            </button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button
-              class="nav-link"
-              id="bodytype-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#bodytype"
-              type="button"
-              role="tab"
-              aria-controls="bodytype"
-              aria-selected="false"
-            >
-              New SignIn Detected
-            </button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button
-              class="nav-link"
-              id="enquirytype-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#enquirytype"
-              type="button"
-              role="tab"
-              aria-controls="enquirytype"
-              aria-selected="false"
-            >
-              Stock Enquiry Client
-            </button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button
-              class="nav-link"
-              id="ser-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#serRetailer"
-              type="button"
-              role="tab"
-              aria-controls="serRetailer"
-              aria-selected="false"
-            >
-              Stock Enquiry Retailer
-            </button>
-          </li>
-        </ul>
-
-        <div class="tab-content bg-white" id="searchTabContent">
-          <!-- Tab Panel 1 -->
-          <div
-            class="tab-pane fade show active"
-            id="popular"
-            role="tabpanel"
-            aria-labelledby="popular-tab"
-          >
-            <table
-              class="email-container"
-              align="center"
-              cellpadding="0"
-              cellspacing="0"
-              width="100%"
-            >
-              <tr>
-                <td class="header">
-                  <img src="./assets/images/logo_sm.png" alt="" />
-                </td>
-              </tr>
-              <tr>
-                <td class="content">
-                  <p>Hi [User's Name],</p>
-                  <p>
-                    We received a request to reset your password. Click the
-                    button below to reset it:
-                  </p>
-                  <a href="[Reset Link]" class="button">Reset Your Password</a>
-                  <p style="margin-top: 20px">
-                    If you didn't request this, you can safely ignore this
-                    email.
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  class="content"
-                  align="start"
-                  valign="start"
+              <p
+                style="
+                  color: #181c32;
+                  font-size: 18px;
+                  font-weight: 600;
+                  margin-bottom: 13px;
+                "
+                data-mce-style="color: #181c32; font-size: 18px; font-weight: 600; margin-bottom: 13px;"
+              >
+                Having trouble accessing your account?
+              </p>
+              <div
+                style="
+                  background: #f9f9f9;
+                  border-radius: 12px;
+                  padding: 35px 30px;
+                "
+                data-mce-style="background: #F9F9F9; border-radius: 12px; padding: 35px 30px;"
+              >
+                <p
                   style="
-                    padding-bottom: 50px;
-                    padding-top: 10px;
-                    text-align: start !important;
+                    color: #5e6278;
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding-top: 3px;
+                    margin: 0;
                   "
-                  data-mce-style="padding-bottom: 10px; "
+                  class="mb-1"
+                  data-mce-style="color: #5e6278; font-size: 13px; font-weight: 500; padding-top: 3px; margin: 0; "
                 >
-                  <p
-                    style="
-                      color: #181c32;
-                      font-size: 18px;
-                      font-weight: 600;
-                      margin-bottom: 13px;
-                    "
-                    data-mce-style="color: #181c32; font-size: 18px; font-weight: 600; margin-bottom: 13px;"
-                  >
-                    Having trouble accessing your account?
-                  </p>
-                  <div
-                    style="
-                      background: #f9f9f9;
-                      border-radius: 12px;
-                      padding: 35px 30px;
-                    "
-                    data-mce-style="background: #F9F9F9; border-radius: 12px; padding: 35px 30px;"
-                  >
-                    <p
-                      style="
-                        color: #5e6278;
-                        font-size: 13px;
-                        font-weight: 500;
-                        padding-top: 3px;
-                        margin: 0;
-                      "
-                      class="mb-1"
-                      data-mce-style="color: #5e6278; font-size: 13px; font-weight: 500; padding-top: 3px; margin: 0; "
-                    >
-                      Don't worry, resetting your password is quick and easy.
-                      Follow these steps to regain access:
-                    </p>
-                    <ul
-                      style="
-                        color: #5e6278;
-                        font-size: 13px;
-                        font-weight: 500;
-                        padding-top: 3px;
-                        margin: 0;
-                      "
-                      class="mb-2"
-                      data-mce-style="color: #5e6278; font-size: 13px; font-weight: 500; padding-top: 3px; margin: 0; "
-                    >
-                      <li>Click the "Change Password" button above.</li>
-                      <li>Enter your new password in the form.</li>
-                      <li>Click the "Reset Password" button.</li>
-                    </ul>
-                    <div style="display: flex" data-mce-style="display: flex;">
-                      <div>
-                        <div>
-                          <a
-                            href="#"
-                            style="
-                              color: #181c32;
-                              font-size: 14px;
-                              font-weight: 600;
-
-                              text-decoration: none;
-                            "
-                            data-mce-href="#"
-                            data-mce-style="color: #181c32; font-size: 14px; font-weight: 600;  text-decoration: none;"
-                          >
-                            Tips for a Strong Password
-                          </a>
-                          <p
-                            style="
-                              color: #5e6278;
-                              font-size: 13px;
-                              font-weight: 500;
-                              padding-top: 3px;
-                              margin: 0;
-                            "
-                            data-mce-style="color: #5e6278; font-size: 13px; font-weight: 500; padding-top: 3px; margin: 0; "
-                          >
-                            Use at least 8 characters, including a mix of
-                            uppercase and lowercase letters, numbers, and
-                            symbols.
-                          </p>
-                          <p
-                            style="
-                              color: #5e6278;
-                              font-size: 13px;
-                              font-weight: 500;
-                              padding-top: 3px;
-                              margin: 0;
-                            "
-                            data-mce-style="color: #5e6278; font-size: 13px; font-weight: 500; padding-top: 3px; margin: 0; "
-                          >
-                            Avoid using easily guessed information like your
-                            name, birthdate, or "password123."
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td class="footer">
-                  <p>Follow us on our social networks</p>
-                  <a href="#"
-                    ><img src="/assets/images/Facebook.png" alt="Facebook"
-                  /></a>
-                  <a href="#"
-                    ><img src="/assets/images/Instagram.png" alt="Instagram"
-                  /></a>
-
-                  <a href="#"
-                    ><img src="/assets/images/twitter.png" alt="Twitter"
-                  /></a>
-
-                  <div class="footer-links">
-                    <a href="#">Privacy Policy</a> |
-                    <a href="#">Unsubscribe</a>
-                  </div>
-                  <p>84-A Ford End Road, Bedford MK40 4JX, UK</p>
-                  <a
-                    class="text-white text-decoration-none hover-underline me-2"
-                    href="tel:08000096612"
-                    >0800 0096612</a
-                  >
-                  |
-                  <a
-                    class="text-white text-decoration-none hover-underline ms-2"
-                    href="mailto:info@dealershub.co.uk"
-                    >info@dealershub.co.uk</a
-                  >
-                </td>
-              </tr>
-            </table>
-          </div>
-
-          <!-- Tab Panel 2 -->
-          <div
-            class="tab-pane fade"
-            id="bodytype"
-            role="tabpanel"
-            aria-labelledby="bodytype-tab"
-          >
-            <table
-              class="email-container"
-              align="center"
-              cellpadding="0"
-              cellspacing="0"
-              width="100%"
-            >
-              <tr>
-                <td class="header">
-                  <img src="./assets/images/logo_sm.png" alt="" />
-                </td>
-              </tr>
-              <tr>
-                <td class="content">
-                  <p style="color: #181c32; font-size: 22px; font-weight: bold">
-                    New Sign-In Detected on Your Account
-                  </p>
-                  <p style="color: #181c32; font-size: 22px; font-weight: bold">
-                    Hello [User's Name],
-                  </p>
-                  <p style="color: #7e8299">
-                    We noticed a new sign-in to your account. Was this you?
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td
-                  class="content"
-                  style="display: background: #f9f9f9;
-                      border-radius: 12px;
-                      text-align: start !important;
-                      padding-bottom: 50px;
-                      padding-top: 10px;;"
+                  Don't worry, resetting your password is quick and easy. Follow
+                  these steps to regain access:
+                </p>
+                <ul
+                  style="
+                    color: #5e6278;
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding-top: 3px;
+                    margin: 0;
+                  "
+                  class="mb-2"
+                  data-mce-style="color: #5e6278; font-size: 13px; font-weight: 500; padding-top: 3px; margin: 0; "
                 >
-                  <div
-                    style="
-                      text-align: start !important;
-                      background: #f9f9f9;
-                      border-radius: 12px;
-                      padding: 35px 30px;
-                    "
-                  >
-                    <p
-                      style="color: #5e6278; font-size: 13px; font-weight: 500"
-                    >
-                      You have successfully logged into your account. If this
-                      was you, no further action is needed.
-                    </p>
-                    <p
-                      style="color: #181c32; font-size: 14px; font-weight: 600"
-                    >
-                      Tips for Keeping Your Account Secure:
-                    </p>
-                    <ul
-                      style="color: #5e6278; font-size: 13px; font-weight: 500"
-                    >
-                      <li>
-                        Use a strong password with at least 8 characters,
-                        including a mix of uppercase and lowercase letters,
-                        numbers, and symbols.
-                      </li>
-                      <li>
-                        Avoid sharing your password or using easily guessed
-                        information like your name or birthdate.
-                      </li>
-                    </ul>
-                    <p
-                      style="
-                        color: #5e6278;
-                        font-size: 13px;
-                        font-weight: 500;
-                        margin-bottom: 0px !important;
-                      "
-                    >
-                      If this login attempt wasn't made by you, please reset
-                      your password immediately or contact our support team for
-                      assistance.
-                    </p>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td class="footer">
-                  <p>Follow us on our social networks</p>
-                  <a href="#"
-                    ><img src="/assets/images/Facebook.png" alt="Facebook"
-                  /></a>
-                  <a href="#"
-                    ><img src="/assets/images/Instagram.png" alt="Instagram"
-                  /></a>
-
-                  <a href="#"
-                    ><img src="/assets/images/twitter.png" alt="Twitter"
-                  /></a>
-
-                  <div class="footer-links">
-                    <a href="#">Privacy Policy</a> |
-                    <a href="#">Unsubscribe</a>
-                  </div>
-                  <p>84-A Ford End Road, Bedford MK40 4JX, UK</p>
-                  <a
-                    class="text-white text-decoration-none hover-underline me-2"
-                    href="tel:08000096612"
-                    >0800 0096612</a
-                  >
-                  |
-                  <a
-                    class="text-white text-decoration-none hover-underline ms-2"
-                    href="mailto:info@dealershub.co.uk"
-                    >info@dealershub.co.uk</a
-                  >
-                </td>
-              </tr>
-            </table>
-          </div>
-
-          <!-- Tab Panel 3 -->
-          <div
-            class="tab-pane fade"
-            id="enquirytype"
-            role="tabpanel"
-            aria-labelledby="enquirytype-tab"
-          >
-            <table
-              class="email-container"
-              align="center"
-              cellpadding="0"
-              cellspacing="0"
-              width="100%"
-              style="border-collapse: collapse"
-            >
-              <tr>
-                <td class="header">
-                  <img src="./assets/images/logo_sm.png" alt="" />
-                </td>
-              </tr>
-              <tr>
-                <td class="content">
-                  <p style="color: #181c32; font-size: 22px; font-weight: bold">
-                    Enquiry Received!
-                  </p>
-                  <p style="color: #181c32; font-size: 22px; font-weight: bold">
-                    Dear {{to_display_name}},
-                  </p>
-                  <p style="color: #7e8299">
-                    Your enquiry against {{stock_registration}} has been
-                    received.
-                  </p>
-                </td>
-              </tr>
-              <tr
-                style="
-                  display: flex;
-                  justify-content: center;
-                  padding: 50px 20px;
-                "
-              >
-                <td align="start" valign="start" style="padding-bottom: 10px">
-                  <div
-                    style="
-                      background: #f9f9f9;
-                      border-radius: 12px;
-                      padding: 35px 30px;
-                    "
-                  >
-                    <p
-                      style="
-                        color: #5e6278;
-                        font-size: 13px;
-                        font-weight: 500;
-                        padding-top: 3px;
-                        margin: 0;
-                      "
-                    >
-                      Thank you for reaching out to us regarding stock
-                      availability. We have successfully received your inquiry
-                      and our team is reviewing the details.
-                    </p>
-                    <ul
-                      style="
-                        color: #5e6278;
-                        margin-top: 10px !important;
-                        padding-left: 5px;
-                        font-size: 13px;
-                        font-weight: 500;
-                        padding-top: 3px;
-                        padding-bottom: 3px;
-                        margin: 0;
-                      "
-                    >
-                      <li>You have enquired about the following stock:</li>
-                    </ul>
-                    <div
-                      style="
-                        width: 100%;
-                        background-color: white;
-                        overflow-x: auto;
-                        -webkit-overflow-scrolling: touch;
-                        padding: 15px;
-                        border-radius: 18px;
-                        margin-top: 12px;
-                      "
-                    >
-                      <table
+                  <li>Click the "Change Password" button above.</li>
+                  <li>Enter your new password in the form.</li>
+                  <li>Click the "Reset Password" button.</li>
+                </ul>
+                <div style="display: flex" data-mce-style="display: flex;">
+                  <div>
+                    <div>
+                      <a
+                        href="#"
                         style="
-                          width: 100%;
-                          max-width: 600px;
-                          margin: auto;
-                          border-collapse: collapse;
-                          border: 2px solid transparent;
+                          color: #181c32;
+                          font-size: 14px;
+                          font-weight: 600;
+
+                          text-decoration: none;
                         "
+                        data-mce-href="#"
+                        data-mce-style="color: #181c32; font-size: 14px; font-weight: 600;  text-decoration: none;"
                       >
-                        <tr>
-                          <td style="text-align: center; padding-bottom: 10px">
-                            <span
-                              style="
-                                display: inline-block;
-                                font-size: 12px;
-                                font-weight: bold;
-                                padding: 5px 15px;
-                                border-radius: 10px;
-                                color: white;
-                                background-color: #feb101;
-                              "
-                            >
-                              {{stock_registration}}
-                            </span>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <table
-                              style="
-                                width: 100%;
-                                border-collapse: collapse;
-                                font-size: 13px;
-                                text-align: left;
-                              "
-                            >
-                              <tr>
-                                <td
-                                  style="
-                                    padding: 5px;
-                                    font-weight: bold;
-                                    color: #555;
-                                  "
-                                >
-                                  Make
-                                </td>
-                                <td
-                                  style="
-                                    padding: 5px;
-                                    color: #777;
-                                    text-align: right;
-                                  "
-                                >
-                                  {{stock_make}}
-                                </td>
-                              </tr>
-                              <tr>
-                                <td
-                                  style="
-                                    padding: 5px;
-                                    font-weight: bold;
-                                    color: #555;
-                                  "
-                                >
-                                  Model
-                                </td>
-                                <td
-                                  style="
-                                    padding: 5px;
-                                    color: #777;
-                                    text-align: right;
-                                  "
-                                >
-                                  {{stock_model}}
-                                </td>
-                              </tr>
-                              <tr>
-                                <td
-                                  style="
-                                    padding: 5px;
-                                    font-weight: bold;
-                                    color: #555;
-                                  "
-                                >
-                                  Price
-                                </td>
-                                <td
-                                  style="
-                                    padding: 5px;
-                                    color: #777;
-                                    text-align: right;
-                                  "
-                                >
-                                  £{{stock_retail}}
-                                </td>
-                              </tr>
-                              <tr>
-                                <td
-                                  style="
-                                    padding: 5px;
-                                    font-weight: bold;
-                                    color: #555;
-                                  "
-                                >
-                                  Mileage
-                                </td>
-                                <td
-                                  style="
-                                    padding: 5px;
-                                    color: #777;
-                                    text-align: right;
-                                  "
-                                >
-                                  {{stock_mileage}} miles
-                                </td>
-                              </tr>
-                            </table>
-                          </td>
-                        </tr>
-                      </table>
-                    </div>
-                    <div style="display: flex; margin-top: 10px">
-                      <div>
-                        <p
-                          style="
-                            color: #181c32;
-                            font-size: 14px;
-                            font-weight: 600;
-
-                            text-decoration: none;
-                          "
-                        >
-                          What’s Next?
-                        </p>
-                        <ul
-                          style="
-                            color: #5e6278;
-                            font-size: 13px;
-                            font-weight: 500;
-                            margin: 0;
-                          "
-                        >
-                          <li>
-                            We will verify the availability of the stock you’ve
-                            requested.
-                          </li>
-                          <li>
-                            A member of our team will get back to you at the
-                            earliest with the relevant details and next steps.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div style="display: flex">
-                      <div>
-                        <p
-                          style="
-                            color: #5e6278;
-                            font-size: 13px;
-                            font-weight: 500;
-                            padding-top: 3px;
-                            margin: 0;
-                          "
-                        >
-                          If you have any additional questions or need to
-                          provide more information, feel free to reply to this
-                          email or contact us directly at {{sale_phone_number}}.
-                        </p>
-                        <p
-                          style="
-                            color: #5e6278;
-                            margin-top: 7px;
-                            font-size: 13px;
-                            font-weight: 500;
-                            padding-top: 3px;
-                            margin: 0;
-                          "
-                        >
-                          We appreciate your interest and look forward to
-                          assisting you!
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-              </tr>
-              <td class="footer">
-                <p>Follow us on our social networks</p>
-                <a href="#"
-                  ><img src="/assets/images/Facebook.png" alt="Facebook"
-                /></a>
-                <a href="#"
-                  ><img src="/assets/images/Instagram.png" alt="Instagram"
-                /></a>
-
-                <a href="#"
-                  ><img src="/assets/images/twitter.png" alt="Twitter"
-                /></a>
-
-                <div class="footer-links">
-                  <a href="#">Privacy Policy</a> |
-                  <a href="#">Unsubscribe</a>
-                </div>
-                <p>84-A Ford End Road, Bedford MK40 4JX, UK</p>
-                <a
-                  class="text-white text-decoration-none hover-underline me-2"
-                  href="tel:08000096612"
-                  >0800 0096612</a
-                >
-                |
-                <a
-                  class="text-white text-decoration-none hover-underline ms-2"
-                  href="mailto:info@dealershub.co.uk"
-                  >info@dealershub.co.uk</a
-                >
-              </td>
-            </table>
-          </div>
-
-          <!-- Tab Panel 4 -->
-          <div
-            class="tab-pane fade"
-            id="serRetailer"
-            role="tabpanel"
-            aria-labelledby="ser-tab"
-          >
-            <table
-              class="email-container"
-              align="center"
-              cellpadding="0"
-              cellspacing="0"
-              width="100%"
-              style="border-collapse: collapse"
-            >
-              <tr>
-                <td class="header">
-                  <img src="./assets/images/logo_sm.png" alt="" />
-                </td>
-              </tr>
-              <tr>
-                <td class="content">
-                  <p style="color: #181c32; font-size: 22px; font-weight: bold">
-                    New Stock Enquiry for Your Inventory!
-                  </p>
-                  <p style="color: #181c32; font-size: 22px; font-weight: bold">
-                    Dear {{to_display_name}},
-                  </p>
-                  <p style="color: #7e8299">
-                    An Enquiry against Reg {{stock_registration}} is received.
-                  </p>
-                </td>
-              </tr>
-              <tr
-                style="
-                  display: flex;
-                  justify-content: center;
-                  padding: 50px 20px;
-                "
-              >
-                <td align="start" valign="start" style="padding-bottom: 10px">
-                  <div
-                    style="
-                      background: #f9f9f9;
-                      border-radius: 12px;
-                      padding: 35px 30px;
-                    "
-                  >
-                    <p
-                      style="
-                        color: #5e6278;
-                        font-size: 13px;
-                        font-weight: 500;
-                        padding-top: 3px;
-                        margin: 0;
-                      "
-                    >
-                      We would like to inform you that a new stock enquiry has
-                      been added regarding your inventory.
-                    </p>
-                    <div
-                      style="
-                        height: auto;
-                        display: flex;
-                        flex-direction: column;
-                        margin-top: 10px;
-                        margin-bottom: 16px;
-                        align-items: center;
-                        justify-content: center;
-                        background-color: white;
-                        border-radius: 20px;
-                        padding: 15px;
-                        gap: 5px;
-                        border: 2px solid transparent;
-                        transition: all 0.3s ease-in-out;
-                        cursor: pointer;
-                      "
-                    >
-                      <table
+                        Tips for a Strong Password
+                      </a>
+                      <p
                         style="
-                          width: 100%;
-                          max-width: 600px;
-                          margin: auto;
-                          border-collapse: collapse;
-                          background-color: white;
-                          border-radius: 20px;
-                          padding: 15px;
-                          border: 2px solid transparent;
-                        "
-                      >
-                        <tr>
-                          <td style="text-align: center; padding-bottom: 10px">
-                            <span
-                              style="
-                                display: inline-block;
-                                font-size: 12px;
-                                font-weight: bold;
-                                padding: 5px 15px;
-                                border-radius: 10px;
-                                color: white;
-                                background-color: #feb101;
-                              "
-                            >
-                              {{stock_registration}}
-                            </span>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <table
-                              style="
-                                width: 100%;
-                                border-collapse: collapse;
-                                font-size: 13px;
-                                text-align: left;
-                              "
-                            >
-                              <tr>
-                                <td
-                                  style="
-                                    padding: 5px;
-                                    font-weight: bold;
-                                    color: #555;
-                                  "
-                                >
-                                  Make
-                                </td>
-                                <td
-                                  style="
-                                    padding: 5px;
-                                    color: #777;
-                                    text-align: right;
-                                  "
-                                >
-                                  {{stock_make}}
-                                </td>
-                              </tr>
-                              <tr>
-                                <td
-                                  style="
-                                    padding: 5px;
-                                    font-weight: bold;
-                                    color: #555;
-                                  "
-                                >
-                                  Model
-                                </td>
-                                <td
-                                  style="
-                                    padding: 5px;
-                                    color: #777;
-                                    text-align: right;
-                                  "
-                                >
-                                  {{stock_model}}
-                                </td>
-                              </tr>
-                              <tr>
-                                <td
-                                  style="
-                                    padding: 5px;
-                                    font-weight: bold;
-                                    color: #555;
-                                  "
-                                >
-                                  Price
-                                </td>
-                                <td
-                                  style="
-                                    padding: 5px;
-                                    color: #777;
-                                    text-align: right;
-                                  "
-                                >
-                                  £{{stock_retail}}
-                                </td>
-                              </tr>
-                              <tr>
-                                <td
-                                  style="
-                                    padding: 5px;
-                                    font-weight: bold;
-                                    color: #555;
-                                  "
-                                >
-                                  Mileage
-                                </td>
-                                <td
-                                  style="
-                                    padding: 5px;
-                                    color: #777;
-                                    text-align: right;
-                                  "
-                                >
-                                  {{stock_mileage}} miles
-                                </td>
-                              </tr>
-                            </table>
-                          </td>
-                        </tr>
-                      </table>
-                    </div>
-                    <p>Customer Details:</p>
-                    <div
-                      style="
-                        height: auto;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        background-color: white;
-                        border-radius: 20px;
-                        padding: 15px;
-                        gap: 5px;
-                        border: 2px solid transparent;
-                        transition: all 0.3s ease-in-out;
-                        cursor: pointer;
-                      "
-                    >
-                      <table
-                        style="
-                          width: 100%;
-                          border-collapse: collapse;
+                          color: #5e6278;
                           font-size: 13px;
+                          font-weight: 500;
+                          padding-top: 3px;
+                          margin: 0;
                         "
+                        data-mce-style="color: #5e6278; font-size: 13px; font-weight: 500; padding-top: 3px; margin: 0; "
                       >
-                        <tr>
-                          <td
-                            style="padding: 5px; font-weight: bold; color: #555"
-                          >
-                            Name
-                          </td>
-                          <td
-                            style="padding: 5px; color: #777; text-align: right"
-                          >
-                            {{client_name}}
-                          </td>
-                        </tr>
-                        <tr>
-                          <td
-                            style="padding: 5px; font-weight: bold; color: #555"
-                          >
-                            Email Address
-                          </td>
-                          <td
-                            style="padding: 5px; color: #777; text-align: right"
-                          >
-                            {{client_email_address}}
-                          </td>
-                        </tr>
-                        <tr>
-                          <td
-                            style="padding: 5px; font-weight: bold; color: #555"
-                          >
-                            Phone Number
-                          </td>
-                          <td
-                            style="padding: 5px; color: #777; text-align: right"
-                          >
-                            {{client_phone_number}}
-                          </td>
-                        </tr>
-                      </table>
-                    </div>
-                    <div style="display: flex; margin-top: 10px">
-                      <div>
-                        <p
-                          style="
-                            color: #5e6278;
-                            margin-top: 10px;
-                            font-size: 13px;
-                            font-weight: 500;
-                            padding-top: 3px;
-                            margin: 0;
-                          "
-                        >
-                          Please review this enquiry and take the necessary
-                          steps to respond to the client. You can access and
-                          manage this enquiry through your retailer account:
-                        </p>
-                        <p
-                          style="
-                            color: #5e6278;
-                            margin-top: 3px;
-                            font-size: 13px;
-                            font-weight: 500;
-                            padding-top: 3px;
-                          "
-                        >
-                          Thank you for your attention, and we look forward to
-                          supporting you in fulfilling this request!
-                        </p>
-                      </div>
+                        Use at least 8 characters, including a mix of uppercase
+                        and lowercase letters, numbers, and symbols.
+                      </p>
+                      <p
+                        style="
+                          color: #5e6278;
+                          font-size: 13px;
+                          font-weight: 500;
+                          padding-top: 3px;
+                          margin: 0;
+                        "
+                        data-mce-style="color: #5e6278; font-size: 13px; font-weight: 500; padding-top: 3px; margin: 0; "
+                      >
+                        Avoid using easily guessed information like your name,
+                        birthdate, or "password123."
+                      </p>
                     </div>
                   </div>
-                </td>
-              </tr>
-              <tr>
-                <td class="footer">
-                  <p>Follow us on our social networks</p>
-                  <a href="#"
-                    ><img src="/assets/images/Facebook.png" alt="Facebook"
-                  /></a>
-                  <a href="#"
-                    ><img src="/assets/images/Instagram.png" alt="Instagram"
-                  /></a>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="footer">
+              <p>Follow us on our social networks</p>
+              <a href="#"
+                ><img src="/assets/images/Facebook.png" alt="Facebook"
+              /></a>
+              <a href="#"
+                ><img src="/assets/images/Instagram.png" alt="Instagram"
+              /></a>
 
-                  <a href="#"
-                    ><img src="/assets/images/twitter.png" alt="Twitter"
-                  /></a>
+              <a href="#"
+                ><img src="/assets/images/twitter.png" alt="Twitter"
+              /></a>
 
-                  <div class="footer-links">
-                    <a href="#">Privacy Policy</a> |
-                    <a href="#">Unsubscribe</a>
+              <div class="footer-links">
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Unsubscribe</a>
+              </div>
+              <p>84-A Ford End Road, Bedford MK40 4JX, UK</p>
+              <a
+                class="text-white text-decoration-none hover-underline me-2"
+                href="tel:08000096612"
+                >0800 0096612</a
+              >
+              |
+              <a
+                class="text-white text-decoration-none hover-underline ms-2"
+                href="mailto:info@dealershub.co.uk"
+                >info@dealershub.co.uk</a
+              >
+            </td>
+          </tr>
+        </table>
+
+        <!-- Sign In Table -->
+        <h1
+          class="text-4xl md:text-5xl lg:text-6xl text-[#111827] text-center mb-8 leading-tight"
+          style="font-weight: 900"
+        >
+          Sign in
+        </h1>
+        <table
+          class="email-container"
+          align="center"
+          cellpadding="0"
+          cellspacing="0"
+          width="100%"
+        >
+          <tr>
+            <td class="header">
+              <img src="./assets/images/logo_sm.png" alt="" />
+            </td>
+          </tr>
+          <tr>
+            <td class="content">
+              <p style="color: #181c32; font-size: 22px; font-weight: bold">
+                New Sign-In Detected on Your Account
+              </p>
+              <p style="color: #181c32; font-size: 22px; font-weight: bold">
+                Hello [User's Name],
+              </p>
+              <p style="color: #7e8299">
+                We noticed a new sign-in to your account. Was this you?
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="content"
+              style="display: background: #f9f9f9;
+                      border-radius: 12px;
+                      text-align: start !important;
+                      padding: 0px 20px 50px 20px;
+                    "
+            >
+              <div
+                style="
+                  text-align: start !important;
+                  background: #f9f9f9;
+                  border-radius: 12px;
+                  padding: 35px 30px;
+                "
+              >
+                <p style="color: #5e6278; font-size: 13px; font-weight: 500">
+                  You have successfully logged into your account. If this was
+                  you, no further action is needed.
+                </p>
+                <p style="color: #181c32; font-size: 14px; font-weight: 600">
+                  Tips for Keeping Your Account Secure:
+                </p>
+                <ul style="color: #5e6278; font-size: 13px; font-weight: 500">
+                  <li>
+                    Use a strong password with at least 8 characters, including
+                    a mix of uppercase and lowercase letters, numbers, and
+                    symbols.
+                  </li>
+                  <li>
+                    Avoid sharing your password or using easily guessed
+                    information like your name or birthdate.
+                  </li>
+                </ul>
+                <p
+                  style="
+                    color: #5e6278;
+                    font-size: 13px;
+                    font-weight: 500;
+                    margin-bottom: 0px !important;
+                  "
+                >
+                  If this login attempt wasn't made by you, please reset your
+                  password immediately or contact our support team for
+                  assistance.
+                </p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="footer">
+              <p>Follow us on our social networks</p>
+              <a href="#"
+                ><img src="/assets/images/Facebook.png" alt="Facebook"
+              /></a>
+              <a href="#"
+                ><img src="/assets/images/Instagram.png" alt="Instagram"
+              /></a>
+
+              <a href="#"
+                ><img src="/assets/images/twitter.png" alt="Twitter"
+              /></a>
+
+              <div class="footer-links">
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Unsubscribe</a>
+              </div>
+              <p>84-A Ford End Road, Bedford MK40 4JX, UK</p>
+              <a
+                class="text-white text-decoration-none hover-underline me-2"
+                href="tel:08000096612"
+                >0800 0096612</a
+              >
+              |
+              <a
+                class="text-white text-decoration-none hover-underline ms-2"
+                href="mailto:info@dealershub.co.uk"
+                >info@dealershub.co.uk</a
+              >
+            </td>
+          </tr>
+        </table>
+
+        <!-- Stock Enquiry Client Table-->
+        <h1
+          class="text-4xl md:text-5xl lg:text-6xl text-[#111827] text-center mb-8 leading-tight"
+          style="font-weight: 900"
+        >
+          Stock Enquiry Client
+        </h1>
+        <table
+          class="email-container"
+          align="center"
+          cellpadding="0"
+          cellspacing="0"
+          width="100%"
+          style="border-collapse: collapse"
+        >
+          <tr>
+            <td class="header">
+              <img src="./assets/images/logo_sm.png" alt="" />
+            </td>
+          </tr>
+          <tr>
+            <td class="content">
+              <p style="color: #181c32; font-size: 22px; font-weight: bold">
+                Enquiry Received!
+              </p>
+              <p style="color: #181c32; font-size: 22px; font-weight: bold">
+                Dear {{to_display_name}},
+              </p>
+              <p style="color: #7e8299">
+                Your enquiry against {{stock_registration}} has been received.
+              </p>
+            </td>
+          </tr>
+          <tr
+            style="
+              display: flex;
+              justify-content: center;
+              padding: 0px 20px 50px 20px;
+            "
+          >
+            <td align="start" valign="start">
+              <div
+                style="
+                  background: #f9f9f9;
+                  border-radius: 12px;
+                  padding: 35px 30px;
+                "
+              >
+                <p
+                  style="
+                    color: #5e6278;
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding-top: 3px;
+                    margin: 0;
+                  "
+                >
+                  Thank you for reaching out to us regarding stock availability.
+                  We have successfully received your inquiry and our team is
+                  reviewing the details.
+                </p>
+                <p
+                  style="
+                    color: #5e6278;
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding-top: 3px;
+                    margin: 0;
+                  "
+                >
+                  We appreciate your patience as we are providing information
+                  for:
+                </p>
+
+                <div
+                  style="
+                    width: 100%;
+                    background-color: white;
+                    overflow-x: auto;
+                    -webkit-overflow-scrolling: touch;
+                    padding: 15px;
+                    border-radius: 18px;
+                    margin-top: 12px;
+                  "
+                >
+                  <table
+                    style="
+                      width: 100%;
+                      max-width: 600px;
+                      margin: auto;
+                      border-collapse: collapse;
+                      border: 2px solid transparent;
+                    "
+                  >
+                    <tr>
+                      <td style="text-align: center; padding-bottom: 10px">
+                        <span
+                          style="
+                            display: inline-block;
+                            font-size: 12px;
+                            font-weight: bold;
+                            padding: 5px 15px;
+                            border-radius: 10px;
+                            color: white;
+                            background-color: #feb101;
+                          "
+                        >
+                          {{stock_registration}}
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table
+                          style="
+                            width: 100%;
+                            border-collapse: collapse;
+                            font-size: 13px;
+                            text-align: left;
+                          "
+                        >
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Make
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{stock_make}}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Model
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{stock_model}}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Price
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              £{{stock_retail}}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Mileage
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{stock_mileage}} miles
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <div style="display: flex; margin-top: 12px">
+                  <div>
+                    <p
+                      style="
+                        color: #5e6278;
+                        font-size: 13px;
+                        font-weight: 500;
+                        padding-top: 3px;
+                        margin: 0;
+                      "
+                    >
+                      If you have any additional questions or need to provide
+                      more information, feel free to reply to this email or
+                      contact us directly at {{sale_phone_number}}.
+                    </p>
+                    <p
+                      style="
+                        color: #5e6278;
+                        font-size: 13px;
+                        font-weight: 500;
+                        padding-top: 3px;
+                        margin: 0;
+                      "
+                    >
+                      We appreciate your interest and look forward to assisting
+                      you!
+                    </p>
                   </div>
-                  <p>84-A Ford End Road, Bedford MK40 4JX, UK</p>
-                  <a
-                    class="text-white text-decoration-none hover-underline me-2"
-                    href="tel:08000096612"
-                    >0800 0096612</a
+                </div>
+              </div>
+            </td>
+          </tr>
+          <td class="footer">
+            <p>Follow us on our social networks</p>
+            <a href="#"
+              ><img src="/assets/images/Facebook.png" alt="Facebook"
+            /></a>
+            <a href="#"
+              ><img src="/assets/images/Instagram.png" alt="Instagram"
+            /></a>
+
+            <a href="#"
+              ><img src="/assets/images/twitter.png" alt="Twitter"
+            /></a>
+
+            <div class="footer-links">
+              <a href="#">Privacy Policy</a> |
+              <a href="#">Unsubscribe</a>
+            </div>
+            <p>84-A Ford End Road, Bedford MK40 4JX, UK</p>
+            <a
+              class="text-white text-decoration-none hover-underline me-2"
+              href="tel:08000096612"
+              >0800 0096612</a
+            >
+            |
+            <a
+              class="text-white text-decoration-none hover-underline ms-2"
+              href="mailto:info@dealershub.co.uk"
+              >info@dealershub.co.uk</a
+            >
+          </td>
+        </table>
+
+        <!-- Stock Enquiry Retailer Table -->
+        <h1
+          class="text-4xl md:text-5xl lg:text-6xl text-[#111827] text-center mb-8 leading-tight"
+          style="font-weight: 900"
+        >
+          Stock Enquiry Retailer
+        </h1>
+        <table
+          class="email-container"
+          align="center"
+          cellpadding="0"
+          cellspacing="0"
+          width="100%"
+          style="border-collapse: collapse"
+        >
+          <tr>
+            <td class="header">
+              <img src="./assets/images/logo_sm.png" alt="" />
+            </td>
+          </tr>
+          <tr>
+            <td class="content">
+              <p style="color: #181c32; font-size: 22px; font-weight: bold">
+                New Stock Enquiry for Your Inventory!
+              </p>
+              <p style="color: #181c32; font-size: 22px; font-weight: bold">
+                Dear {{to_display_name}},
+              </p>
+              <p style="color: #7e8299">
+                An Enquiry against Reg {{stock_registration}} is received.
+              </p>
+            </td>
+          </tr>
+          <tr
+            style="
+              display: flex;
+              justify-content: center;
+              padding: 0px 20px 50px 20px;
+            "
+          >
+            <td align="start" valign="start" style="padding-bottom: 10px">
+              <div
+                style="
+                  background: #f9f9f9;
+                  border-radius: 12px;
+                  padding: 35px 30px;
+                "
+              >
+                <p
+                  style="
+                    color: #5e6278;
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding-top: 3px;
+                    margin: 0;
+                  "
+                >
+                  We would like to inform you that a new stock enquiry has been
+                  added regarding your inventory.
+                </p>
+                <div
+                  style="
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 10px;
+                    margin-bottom: 16px;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: white;
+                    border-radius: 20px;
+                    padding: 15px;
+                    gap: 5px;
+                    border: 2px solid transparent;
+                    transition: all 0.3s ease-in-out;
+                    cursor: pointer;
+                  "
+                >
+                  <table
+                    style="
+                      width: 100%;
+                      max-width: 600px;
+                      margin: auto;
+                      border-collapse: collapse;
+                      background-color: white;
+                      border-radius: 20px;
+                      padding: 15px;
+                      border: 2px solid transparent;
+                    "
                   >
-                  |
-                  <a
-                    class="text-white text-decoration-none hover-underline ms-2"
-                    href="mailto:info@dealershub.co.uk"
-                    >info@dealershub.co.uk</a
+                    <tr>
+                      <td style="text-align: center; padding-bottom: 10px">
+                        <span
+                          style="
+                            display: inline-block;
+                            font-size: 12px;
+                            font-weight: bold;
+                            padding: 5px 15px;
+                            border-radius: 10px;
+                            color: white;
+                            background-color: #feb101;
+                          "
+                        >
+                          {{stock_registration}}
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table
+                          style="
+                            width: 100%;
+                            border-collapse: collapse;
+                            font-size: 13px;
+                            text-align: left;
+                          "
+                        >
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Make
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{stock_make}}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Model
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{stock_model}}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Price
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              £{{stock_retail}}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Mileage
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{stock_mileage}} miles
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <p>Customer Details:</p>
+                <div
+                  style="
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: white;
+                    border-radius: 20px;
+                    padding: 15px;
+                    gap: 5px;
+                    border: 2px solid transparent;
+                    transition: all 0.3s ease-in-out;
+                    cursor: pointer;
+                  "
+                >
+                  <table
+                    style="
+                      width: 100%;
+                      border-collapse: collapse;
+                      font-size: 13px;
+                    "
                   >
-                </td>
-              </tr>
-            </table>
-          </div>
-        </div>
+                    <tr>
+                      <td style="padding: 5px; font-weight: bold; color: #555">
+                        Name
+                      </td>
+                      <td style="padding: 5px; color: #777; text-align: right">
+                        {{client_name}}
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding: 5px; font-weight: bold; color: #555">
+                        Email Address
+                      </td>
+                      <td style="padding: 5px; color: #777; text-align: right">
+                        {{client_email_address}}
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding: 5px; font-weight: bold; color: #555">
+                        Phone Number
+                      </td>
+                      <td style="padding: 5px; color: #777; text-align: right">
+                        {{client_phone_number}}
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <div style="display: flex; margin-top: 10px">
+                  <div>
+                    <p
+                      style="
+                        color: #5e6278;
+                        margin-top: 10px;
+                        font-size: 13px;
+                        font-weight: 500;
+                        padding-top: 3px;
+                        margin: 0;
+                      "
+                    >
+                      Please review this enquiry and take the necessary steps to
+                      respond to the client. You can access and manage this
+                      enquiry through your retailer account:
+                    </p>
+                    <p
+                      style="
+                        color: #5e6278;
+                        margin-top: 3px;
+                        font-size: 13px;
+                        font-weight: 500;
+                        padding-top: 3px;
+                      "
+                    >
+                      Thank you for your attention, and we look forward to
+                      supporting you in fulfilling this request!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="footer">
+              <p>Follow us on our social networks</p>
+              <a href="#"
+                ><img src="/assets/images/Facebook.png" alt="Facebook"
+              /></a>
+              <a href="#"
+                ><img src="/assets/images/Instagram.png" alt="Instagram"
+              /></a>
+
+              <a href="#"
+                ><img src="/assets/images/twitter.png" alt="Twitter"
+              /></a>
+
+              <div class="footer-links">
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Unsubscribe</a>
+              </div>
+              <p>84-A Ford End Road, Bedford MK40 4JX, UK</p>
+              <a
+                class="text-white text-decoration-none hover-underline me-2"
+                href="tel:08000096612"
+                >0800 0096612</a
+              >
+              |
+              <a
+                class="text-white text-decoration-none hover-underline ms-2"
+                href="mailto:info@dealershub.co.uk"
+                >info@dealershub.co.uk</a
+              >
+            </td>
+          </tr>
+        </table>
+
+        <!-- Stock Enquiry Reply Table -->
+        <h1
+          class="text-4xl md:text-5xl lg:text-6xl text-[#111827] text-center mb-8 leading-tight"
+          style="font-weight: 900"
+        >
+          Stock Enquiry Reply
+        </h1>
+        <table
+          class="email-container"
+          align="center"
+          cellpadding="0"
+          cellspacing="0"
+          width="100%"
+          style="border-collapse: collapse"
+        >
+          <tr>
+            <td class="header">
+              <img src="./assets/images/logo_sm.png" alt="" />
+            </td>
+          </tr>
+          <tr>
+            <td class="content">
+              <p style="color: #181c32; font-size: 22px; font-weight: bold">
+                Response to Your Enquiry
+              </p>
+              <p style="color: #181c32; font-size: 22px; font-weight: bold">
+                Dear {{to_display_name}}
+              </p>
+              <p style="color: #7e8299">
+                Thank you for your enquiry regarding {{stock_registration}}
+              </p>
+              <p style="color: #7e8299">{{enquiry_response}}</p>
+              <p style="color: #7e8299">
+                We appreciate your patience as we are providing information for:
+              </p>
+            </td>
+          </tr>
+          <tr
+            style="
+              display: flex;
+              justify-content: center;
+              padding: 0px 20px 50px 20px;
+            "
+          >
+            <td align="start" valign="start" style="padding-bottom: 10px">
+              <div
+                style="
+                  background: #f9f9f9;
+                  border-radius: 12px;
+                  padding: 35px 30px;
+                "
+              >
+                <p
+                  style="
+                    color: #5e6278;
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding-top: 3px;
+                    margin: 0;
+                  "
+                >
+                  We would like to inform you that a new stock enquiry has been
+                  added regarding your inventory.
+                </p>
+                <div
+                  style="
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 10px;
+                    margin-bottom: 16px;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: white;
+                    border-radius: 20px;
+                    padding: 15px;
+                    gap: 5px;
+                    border: 2px solid transparent;
+                    transition: all 0.3s ease-in-out;
+                    cursor: pointer;
+                  "
+                >
+                  <table
+                    style="
+                      width: 100%;
+                      max-width: 600px;
+                      margin: auto;
+                      border-collapse: collapse;
+                      background-color: white;
+                      border-radius: 20px;
+                      padding: 15px;
+                      border: 2px solid transparent;
+                    "
+                  >
+                    <tr>
+                      <td style="text-align: center; padding-bottom: 10px">
+                        <span
+                          style="
+                            display: inline-block;
+                            font-size: 12px;
+                            font-weight: bold;
+                            padding: 5px 15px;
+                            border-radius: 10px;
+                            color: white;
+                            background-color: #feb101;
+                          "
+                        >
+                          {{stock_registration}}
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table
+                          style="
+                            width: 100%;
+                            border-collapse: collapse;
+                            font-size: 13px;
+                            text-align: left;
+                          "
+                        >
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Make
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{stock_make}}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Model
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{stock_model}}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Price
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              £{{stock_retail}}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Mileage
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{stock_mileage}} miles
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <p
+                  style="
+                    color: #5e6278;
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding-top: 3px;
+                    margin: 0;
+                  "
+                >
+                  If you have any additional questions or need to provide more
+                  information, feel free to reply to this email or contact us
+                  directly at {{sale_phone_number}}.
+                </p>
+                <p
+                  style="
+                    color: #5e6278;
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding-top: 3px;
+                    margin: 0;
+                  "
+                >
+                  We appreciate your interest and look forward to assisting you
+                  further!
+                </p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="footer">
+              <p>Follow us on our social networks</p>
+              <a href="#"
+                ><img src="/assets/images/Facebook.png" alt="Facebook"
+              /></a>
+              <a href="#"
+                ><img src="/assets/images/Instagram.png" alt="Instagram"
+              /></a>
+
+              <a href="#"
+                ><img src="/assets/images/twitter.png" alt="Twitter"
+              /></a>
+
+              <div class="footer-links">
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Unsubscribe</a>
+              </div>
+              <p>84-A Ford End Road, Bedford MK40 4JX, UK</p>
+              <a
+                class="text-white text-decoration-none hover-underline me-2"
+                href="tel:08000096612"
+                >0800 0096612</a
+              >
+              |
+              <a
+                class="text-white text-decoration-none hover-underline ms-2"
+                href="mailto:info@dealershub.co.uk"
+                >info@dealershub.co.uk</a
+              >
+            </td>
+          </tr>
+        </table>
+
+        <!-- Web Enquiry Reply Table -->
+        <h1
+          class="text-4xl md:text-5xl lg:text-6xl text-[#111827] text-center mb-8 leading-tight"
+          style="font-weight: 900"
+        >
+          Web Enquiry Reply
+        </h1>
+        <table
+          class="email-container"
+          align="center"
+          cellpadding="0"
+          cellspacing="0"
+          width="100%"
+        >
+          <tr>
+            <td class="header">
+              <img src="./assets/images/logo_sm.png" alt="" />
+            </td>
+          </tr>
+          <tr>
+            <td class="content">
+              <p style="color: #181c32; font-size: 22px; font-weight: bold">
+                Response to Your Enquiry
+              </p>
+              <p style="color: #181c32; font-size: 22px; font-weight: bold">
+                Dear {{to_display_name}}
+              </p>
+              <p style="color: #7e8299">{{enquiry_response}}</p>
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="content"
+              style="display: background: #f9f9f9;
+                      border-radius: 12px;
+                      text-align: start !important;
+                      padding: 0px 20px 50px 20px;
+                    "
+            >
+              <div
+                style="
+                  text-align: start !important;
+                  background: #f9f9f9;
+                  border-radius: 12px;
+                  padding: 35px 30px;
+                "
+              >
+                <p style="color: #5e6278; font-size: 13px; font-weight: 500">
+                  If you have any additional questions or need to provide more
+                  information, feel free to reply to this email or contact us
+                  directly at {{sale_phone_number}}.
+                </p>
+                <p
+                  style="
+                    color: #5e6278;
+                    font-size: 13px;
+                    font-weight: 500;
+                    margin-bottom: 0px;
+                  "
+                >
+                  We appreciate your interest and look forward to assisting you
+                  further!
+                </p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="footer">
+              <p>Follow us on our social networks</p>
+              <a href="#"
+                ><img src="/assets/images/Facebook.png" alt="Facebook"
+              /></a>
+              <a href="#"
+                ><img src="/assets/images/Instagram.png" alt="Instagram"
+              /></a>
+
+              <a href="#"
+                ><img src="/assets/images/twitter.png" alt="Twitter"
+              /></a>
+
+              <div class="footer-links">
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Unsubscribe</a>
+              </div>
+              <p>84-A Ford End Road, Bedford MK40 4JX, UK</p>
+              <a
+                class="text-white text-decoration-none hover-underline me-2"
+                href="tel:08000096612"
+                >0800 0096612</a
+              >
+              |
+              <a
+                class="text-white text-decoration-none hover-underline ms-2"
+                href="mailto:info@dealershub.co.uk"
+                >info@dealershub.co.uk</a
+              >
+            </td>
+          </tr>
+        </table>
+
+        <!-- Stock Added Table -->
+        <h1
+          class="text-4xl md:text-5xl lg:text-6xl text-[#111827] text-center mb-8 leading-tight"
+          style="font-weight: 900"
+        >
+          Stock Added
+        </h1>
+        <table
+          class="email-container"
+          align="center"
+          cellpadding="0"
+          cellspacing="0"
+          width="100%"
+          style="border-collapse: collapse"
+        >
+          <tr>
+            <td class="header">
+              <img src="./assets/images/logo_sm.png" alt="" />
+            </td>
+          </tr>
+          <tr>
+            <td class="content">
+              <p style="color: #181c32; font-size: 22px; font-weight: bold">
+                Stock Added to Your Inventory!
+              </p>
+              <p style="color: #181c32; font-size: 22px; font-weight: bold">
+                Dear {{to_display_name}}
+              </p>
+              <p style="color: #7e8299">
+                New Stock with Reg {{stock_registration}} is Added.
+              </p>
+            </td>
+          </tr>
+          <tr
+            style="
+              display: flex;
+              justify-content: center;
+              padding: 0px 20px 50px 20px;
+            "
+          >
+            <td align="start" valign="start" style="padding-bottom: 10px">
+              <div
+                style="
+                  background: #f9f9f9;
+                  border-radius: 12px;
+                  padding: 35px 30px;
+                "
+              >
+                <p
+                  style="
+                    color: #5e6278;
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding-top: 3px;
+                    margin: 0;
+                  "
+                >
+                  We are excited to inform you that new stock has been
+                  successfully added to your inventory. Here are the details
+                </p>
+                <div
+                  style="
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 10px;
+                    margin-bottom: 16px;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: white;
+                    border-radius: 20px;
+                    padding: 15px;
+                    gap: 5px;
+                    border: 2px solid transparent;
+                    transition: all 0.3s ease-in-out;
+                    cursor: pointer;
+                  "
+                >
+                  <table
+                    style="
+                      width: 100%;
+                      max-width: 600px;
+                      margin: auto;
+                      border-collapse: collapse;
+                      background-color: white;
+                      border-radius: 20px;
+                      padding: 15px;
+                      border: 2px solid transparent;
+                    "
+                  >
+                    <tr>
+                      <td style="text-align: center; padding-bottom: 10px">
+                        <span
+                          style="
+                            display: inline-block;
+                            font-size: 12px;
+                            font-weight: bold;
+                            padding: 5px 15px;
+                            border-radius: 10px;
+                            color: white;
+                            background-color: #feb101;
+                          "
+                        >
+                          {{stock_registration}}
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table
+                          style="
+                            width: 100%;
+                            border-collapse: collapse;
+                            font-size: 13px;
+                            text-align: left;
+                          "
+                        >
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Make
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{stock_make}}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Model
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{stock_model}}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Price
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              £{{stock_retail}}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Mileage
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{stock_mileage}} miles
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <p
+                  style="
+                    color: #5e6278;
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding-top: 3px;
+                    margin: 0;
+                  "
+                >
+                  You can view the updated stock and manage your inventory by
+                  logging into your retailer account.
+                </p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="footer">
+              <p>Follow us on our social networks</p>
+              <a href="#"
+                ><img src="/assets/images/Facebook.png" alt="Facebook"
+              /></a>
+              <a href="#"
+                ><img src="/assets/images/Instagram.png" alt="Instagram"
+              /></a>
+
+              <a href="#"
+                ><img src="/assets/images/twitter.png" alt="Twitter"
+              /></a>
+
+              <div class="footer-links">
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Unsubscribe</a>
+              </div>
+              <p>84-A Ford End Road, Bedford MK40 4JX, UK</p>
+              <a
+                class="text-white text-decoration-none hover-underline me-2"
+                href="tel:08000096612"
+                >0800 0096612</a
+              >
+              |
+              <a
+                class="text-white text-decoration-none hover-underline ms-2"
+                href="mailto:info@dealershub.co.uk"
+                >info@dealershub.co.uk</a
+              >
+            </td>
+          </tr>
+        </table>
+
+        <!-- Stock Deleted Table -->
+        <h1
+          class="text-4xl md:text-5xl lg:text-6xl text-[#111827] text-center mb-8 leading-tight"
+          style="font-weight: 900"
+        >
+          Stock Deleted
+        </h1>
+        <table
+          class="email-container"
+          align="center"
+          cellpadding="0"
+          cellspacing="0"
+          width="100%"
+          style="border-collapse: collapse"
+        >
+          <tr>
+            <td class="header">
+              <img src="./assets/images/logo_sm.png" alt="" />
+            </td>
+          </tr>
+          <tr>
+            <td class="content">
+              <p style="color: #181c32; font-size: 22px; font-weight: bold">
+                Stock Removed from Your Inventory!
+              </p>
+              <p style="color: #181c32; font-size: 22px; font-weight: bold">
+                Dear {{to_display_name}}
+              </p>
+              <p style="color: #7e8299">
+                Stock with Reg {{stock_registration}} is Removed!
+              </p>
+            </td>
+          </tr>
+          <tr
+            style="
+              display: flex;
+              justify-content: center;
+              padding: 0px 20px 50px 20px;
+            "
+          >
+            <td align="start" valign="start" style="padding-bottom: 10px">
+              <div
+                style="
+                  background: #f9f9f9;
+                  border-radius: 12px;
+                  padding: 35px 30px;
+                "
+              >
+                <p
+                  style="
+                    color: #5e6278;
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding-top: 3px;
+                    margin: 0;
+                  "
+                >
+                  We want to inform you that the following stock has been
+                  removed from your inventory:
+                </p>
+                <div
+                  style="
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 10px;
+                    margin-bottom: 16px;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: white;
+                    border-radius: 20px;
+                    padding: 15px;
+                    gap: 5px;
+                    border: 2px solid transparent;
+                    transition: all 0.3s ease-in-out;
+                    cursor: pointer;
+                  "
+                >
+                  <table
+                    style="
+                      width: 100%;
+                      max-width: 600px;
+                      margin: auto;
+                      border-collapse: collapse;
+                      background-color: white;
+                      border-radius: 20px;
+                      padding: 15px;
+                      border: 2px solid transparent;
+                    "
+                  >
+                    <tr>
+                      <td style="text-align: center; padding-bottom: 10px">
+                        <span
+                          style="
+                            display: inline-block;
+                            font-size: 12px;
+                            font-weight: bold;
+                            padding: 5px 15px;
+                            border-radius: 10px;
+                            color: white;
+                            background-color: #feb101;
+                          "
+                        >
+                          {{stock_registration}}
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table
+                          style="
+                            width: 100%;
+                            border-collapse: collapse;
+                            font-size: 13px;
+                            text-align: left;
+                          "
+                        >
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Make
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{stock_make}}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Model
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{stock_model}}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Price
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              £{{stock_retail}}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Mileage
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{stock_mileage}} miles
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <p
+                  style="
+                    color: #5e6278;
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding-top: 3px;
+                    margin: 0;
+                  "
+                >
+                  Your inventory has been updated accordingly. You can review
+                  the changes by logging into your retailer account:
+                </p>
+                <p
+                  style="
+                    color: #5e6278;
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding-top: 3px;
+                    margin: 0;
+                  "
+                >
+                  If you have any questions regarding this update or need
+                  further assistance, please don’t hesitate to at
+                  {{sale_phone_number}} or {{contact_us_url}}.
+                </p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="footer">
+              <p>Follow us on our social networks</p>
+              <a href="#"
+                ><img src="/assets/images/Facebook.png" alt="Facebook"
+              /></a>
+              <a href="#"
+                ><img src="/assets/images/Instagram.png" alt="Instagram"
+              /></a>
+
+              <a href="#"
+                ><img src="/assets/images/twitter.png" alt="Twitter"
+              /></a>
+
+              <div class="footer-links">
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Unsubscribe</a>
+              </div>
+              <p>84-A Ford End Road, Bedford MK40 4JX, UK</p>
+              <a
+                class="text-white text-decoration-none hover-underline me-2"
+                href="tel:08000096612"
+                >0800 0096612</a
+              >
+              |
+              <a
+                class="text-white text-decoration-none hover-underline ms-2"
+                href="mailto:info@dealershub.co.uk"
+                >info@dealershub.co.uk</a
+              >
+            </td>
+          </tr>
+        </table>
+
+        <!-- Stock Reserved Retailer Table -->
+        <h1
+          class="text-4xl md:text-5xl lg:text-6xl text-[#111827] text-center mb-8 leading-tight"
+          style="font-weight: 900"
+        >
+          Stock Reserved Retailer
+        </h1>
+        <table
+          class="email-container"
+          align="center"
+          cellpadding="0"
+          cellspacing="0"
+          width="100%"
+          style="border-collapse: collapse"
+        >
+          <tr>
+            <td class="header">
+              <img src="./assets/images/logo_sm.png" alt="" />
+            </td>
+          </tr>
+          <tr>
+            <td class="content">
+              <p style="color: #181c32; font-size: 22px; font-weight: bold">
+                Enquiry Received!
+              </p>
+              <p style="color: #181c32; font-size: 22px; font-weight: bold">
+                Dear {{to_display_name}},
+              </p>
+              <p style="color: #7e8299">
+                Your enquiry against {{stock_registration}} has been received.
+              </p>
+            </td>
+          </tr>
+          <tr
+            style="
+              display: flex;
+              justify-content: center;
+              padding: 0px 20px 50px 20px;
+            "
+          >
+            <td align="start" valign="start">
+              <div
+                style="
+                  background: #f9f9f9;
+                  border-radius: 12px;
+                  padding: 35px 30px;
+                "
+              >
+                <p
+                  style="
+                    color: #5e6278;
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding-top: 3px;
+                    margin: 0;
+                  "
+                >
+                  Thank you for reaching out to us regarding stock availability.
+                  We have successfully received your inquiry and our team is
+                  reviewing the details.
+                </p>
+                <p
+                  style="
+                    color: #5e6278;
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding-top: 3px;
+                    margin: 0;
+                  "
+                >
+                  We appreciate your patience as we are providing information
+                  for:
+                </p>
+
+                <div
+                  style="
+                    width: 100%;
+                    background-color: white;
+                    overflow-x: auto;
+                    -webkit-overflow-scrolling: touch;
+                    padding: 15px;
+                    border-radius: 18px;
+                    margin-top: 12px;
+                  "
+                >
+                  <table
+                    style="
+                      width: 100%;
+                      max-width: 600px;
+                      margin: auto;
+                      border-collapse: collapse;
+                      border: 2px solid transparent;
+                    "
+                  >
+                    <tr>
+                      <td style="text-align: center; padding-bottom: 10px">
+                        <span
+                          style="
+                            display: inline-block;
+                            font-size: 12px;
+                            font-weight: bold;
+                            padding: 5px 15px;
+                            border-radius: 10px;
+                            color: white;
+                            background-color: #feb101;
+                          "
+                        >
+                          {{stock_registration}}
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table
+                          style="
+                            width: 100%;
+                            border-collapse: collapse;
+                            font-size: 13px;
+                            text-align: left;
+                          "
+                        >
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Make
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{stock_make}}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Model
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{stock_model}}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Price
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              £{{stock_retail}}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Mileage
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{stock_mileage}} miles
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <div style="display: flex; margin-top: 12px">
+                  <div>
+                    <p
+                      style="
+                        color: #5e6278;
+                        font-size: 13px;
+                        font-weight: 500;
+                        padding-top: 3px;
+                        margin: 0;
+                      "
+                    >
+                      If you have any additional questions or need to provide
+                      more information, feel free to reply to this email or
+                      contact us directly at {{sale_phone_number}}.
+                    </p>
+                    <p
+                      style="
+                        color: #5e6278;
+                        font-size: 13px;
+                        font-weight: 500;
+                        padding-top: 3px;
+                        margin: 0;
+                      "
+                    >
+                      We appreciate your interest and look forward to assisting
+                      you!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <td class="footer">
+            <p>Follow us on our social networks</p>
+            <a href="#"
+              ><img src="/assets/images/Facebook.png" alt="Facebook"
+            /></a>
+            <a href="#"
+              ><img src="/assets/images/Instagram.png" alt="Instagram"
+            /></a>
+
+            <a href="#"
+              ><img src="/assets/images/twitter.png" alt="Twitter"
+            /></a>
+
+            <div class="footer-links">
+              <a href="#">Privacy Policy</a> |
+              <a href="#">Unsubscribe</a>
+            </div>
+            <p>84-A Ford End Road, Bedford MK40 4JX, UK</p>
+            <a
+              class="text-white text-decoration-none hover-underline me-2"
+              href="tel:08000096612"
+              >0800 0096612</a
+            >
+            |
+            <a
+              class="text-white text-decoration-none hover-underline ms-2"
+              href="mailto:info@dealershub.co.uk"
+              >info@dealershub.co.uk</a
+            >
+          </td>
+        </table>
       </div>
     </section>
 
