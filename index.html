@@ -708,21 +708,9 @@
               </p>
             </td>
           </tr>
-          <tr
-            style="
-              display: flex;
-              justify-content: center;
-              padding: 0px 20px 50px 20px;
-            "
-          >
-            <td align="start" valign="start" style="padding-bottom: 10px">
-              <div
-                style="
-                  background: #f9f9f9;
-                  border-radius: 12px;
-                  padding: 35px 30px;
-                "
-              >
+          <tr style="display: flex; justify-content: center">
+            <td align="start" valign="start">
+              <div style="background: #f9f9f9; padding: 35px 30px">
                 <p
                   style="
                     color: #5e6278;
@@ -735,22 +723,16 @@
                   We would like to inform you that a new stock enquiry has been
                   added regarding your inventory.
                 </p>
+
                 <div
                   style="
-                    height: auto;
-                    display: flex;
-                    flex-direction: column;
-                    margin-top: 10px;
-                    margin-bottom: 16px;
-                    align-items: center;
-                    justify-content: center;
+                    width: 100%;
                     background-color: white;
-                    border-radius: 20px;
+                    overflow-x: auto;
+                    -webkit-overflow-scrolling: touch;
                     padding: 15px;
-                    gap: 5px;
-                    border: 2px solid transparent;
-                    transition: all 0.3s ease-in-out;
-                    cursor: pointer;
+                    border-radius: 18px;
+                    margin-top: 12px;
                   "
                 >
                   <table
@@ -759,9 +741,6 @@
                       max-width: 600px;
                       margin: auto;
                       border-collapse: collapse;
-                      background-color: white;
-                      border-radius: 20px;
-                      padding: 15px;
                       border: 2px solid transparent;
                     "
                   >
@@ -877,121 +856,173 @@
                     </tr>
                   </table>
                 </div>
-                <p>Customer Details:</p>
+                <p
+                  style="
+                    color: #5e6278;
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding-top: 12px;
+                    margin: 0;
+                  "
+                >
+                  Customer Details:
+                </p>
+
                 <div
                   style="
-                    height: auto;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: center;
+                    width: 100%;
                     background-color: white;
-                    border-radius: 20px;
+                    overflow-x: auto;
+                    -webkit-overflow-scrolling: touch;
                     padding: 15px;
-                    gap: 5px;
-                    border: 2px solid transparent;
-                    transition: all 0.3s ease-in-out;
-                    cursor: pointer;
+                    border-radius: 18px;
+                    margin-top: 12px;
                   "
                 >
                   <table
                     style="
                       width: 100%;
+                      max-width: 600px;
+                      margin: auto;
                       border-collapse: collapse;
-                      font-size: 13px;
+                      border: 2px solid transparent;
                     "
                   >
                     <tr>
-                      <td style="padding: 5px; font-weight: bold; color: #555">
-                        Name
-                      </td>
-                      <td style="padding: 5px; color: #777; text-align: right">
-                        {{client_name}}
-                      </td>
-                    </tr>
-                    <tr>
-                      <td style="padding: 5px; font-weight: bold; color: #555">
-                        Email Address
-                      </td>
-                      <td style="padding: 5px; color: #777; text-align: right">
-                        {{client_email_address}}
-                      </td>
-                    </tr>
-                    <tr>
-                      <td style="padding: 5px; font-weight: bold; color: #555">
-                        Phone Number
-                      </td>
-                      <td style="padding: 5px; color: #777; text-align: right">
-                        {{client_phone_number}}
+                      <td>
+                        <table
+                          style="
+                            width: 100%;
+                            border-collapse: collapse;
+                            font-size: 13px;
+                            text-align: left;
+                          "
+                        >
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Name
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{client_name}}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Email Address
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{client_email_address}}
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              style="
+                                padding: 5px;
+                                font-weight: bold;
+                                color: #555;
+                              "
+                            >
+                              Phone Number
+                            </td>
+                            <td
+                              style="
+                                padding: 5px;
+                                color: #777;
+                                text-align: right;
+                              "
+                            >
+                              {{client_phone_number}}
+                            </td>
+                          </tr>
+                        </table>
                       </td>
                     </tr>
                   </table>
                 </div>
-                <div style="display: flex; margin-top: 10px">
-                  <div>
-                    <p
-                      style="
-                        color: #5e6278;
-                        margin-top: 10px;
-                        font-size: 13px;
-                        font-weight: 500;
-                        padding-top: 3px;
-                        margin: 0;
-                      "
-                    >
-                      Please review this enquiry and take the necessary steps to
-                      respond to the client. You can access and manage this
-                      enquiry through your retailer account:
-                    </p>
-                    <p
-                      style="
-                        color: #5e6278;
-                        margin-top: 3px;
-                        font-size: 13px;
-                        font-weight: 500;
-                        padding-top: 3px;
-                      "
-                    >
-                      Thank you for your attention, and we look forward to
-                      supporting you in fulfilling this request!
-                    </p>
-                  </div>
-                </div>
+
+                <p
+                  style="
+                    color: #5e6278;
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding-top: 12px;
+                    margin: 0;
+                  "
+                >
+                  Please review this enquiry and take the necessary steps to
+                  respond to the client. You can access and manage this enquiry
+                  through your retailer account:
+                </p>
+
+                <p
+                  style="
+                    color: #5e6278;
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding-top: 12px;
+                    margin: 0;
+                  "
+                >
+                  Thank you for your attention, and we look forward to
+                  supporting you in fulfilling this request!
+                </p>
               </div>
             </td>
           </tr>
-          <tr>
-            <td class="footer">
-              <p>Follow us on our social networks</p>
-              <a href="#"
-                ><img src="/assets/images/Facebook.png" alt="Facebook"
-              /></a>
-              <a href="#"
-                ><img src="/assets/images/Instagram.png" alt="Instagram"
-              /></a>
+          <td class="footer">
+            <p>Follow us on our social networks</p>
+            <a href="#"
+              ><img src="/assets/images/Facebook.png" alt="Facebook"
+            /></a>
+            <a href="#"
+              ><img src="/assets/images/Instagram.png" alt="Instagram"
+            /></a>
 
-              <a href="#"
-                ><img src="/assets/images/twitter.png" alt="Twitter"
-              /></a>
+            <a href="#"
+              ><img src="/assets/images/twitter.png" alt="Twitter"
+            /></a>
 
-              <div class="footer-links">
-                <a href="#">Privacy Policy</a> |
-                <a href="#">Unsubscribe</a>
-              </div>
-              <p>84-A Ford End Road, Bedford MK40 4JX, UK</p>
-              <a
-                class="text-white text-decoration-none hover-underline me-2"
-                href="tel:08000096612"
-                >0800 0096612</a
-              >
-              |
-              <a
-                class="text-white text-decoration-none hover-underline ms-2"
-                href="mailto:info@dealershub.co.uk"
-                >info@dealershub.co.uk</a
-              >
-            </td>
-          </tr>
+            <div class="footer-links">
+              <a href="#">Privacy Policy</a> |
+              <a href="#">Unsubscribe</a>
+            </div>
+            <p>84-A Ford End Road, Bedford MK40 4JX, UK</p>
+            <a
+              class="text-white text-decoration-none hover-underline me-2"
+              href="tel:08000096612"
+              >0800 0096612</a
+            >
+            |
+            <a
+              class="text-white text-decoration-none hover-underline ms-2"
+              href="mailto:info@dealershub.co.uk"
+              >info@dealershub.co.uk</a
+            >
+          </td>
         </table>
 
         <!-- Stock Enquiry Reply Table -->
